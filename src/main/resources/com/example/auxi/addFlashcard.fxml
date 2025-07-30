@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="360.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.auxi.controller.AddFlashcardController">
+   <children>
+      <Button layoutX="24.0" layoutY="24.0" minHeight="25.0" minWidth="50.0" mnemonicParsing="false" onAction="#backbutton" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: white;">
+         <font>
+            <Font size="23.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="39.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../img_2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label layoutX="89.0" layoutY="31.0" text="Add Flashcards">
+         <font>
+            <Font name="Inter Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="frontText" alignment="TOP_LEFT" layoutX="23.0" layoutY="116.0" prefHeight="170.0" prefWidth="315.0" promptText="Front Text/Question" />
+      <TextField fx:id="backText" alignment="TOP_LEFT" layoutX="23.0" layoutY="320.0" prefHeight="170.0" prefWidth="315.0" promptText="Back Text/Answer" />
+      <Label layoutX="25.0" layoutY="99.0" text="Front:" />
+      <Label layoutX="26.0" layoutY="303.0" text="Back:" />
+      <Button layoutX="142.0" layoutY="509.0" mnemonicParsing="false" onAction="#addFlashCard" prefHeight="40.0" prefWidth="80.0" text="Add" />
+   </children>
+</AnchorPane>

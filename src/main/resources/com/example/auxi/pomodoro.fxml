@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="360.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.auxi.controller.pomodoroController">
+   <children>
+      <Button layoutX="24.0" layoutY="18.0" minHeight="20.0" minWidth="37.0" mnemonicParsing="false" onAction="#backbutton" prefHeight="22.0" prefWidth="37.0" style="-fx-background-color: white;">
+         <font>
+            <Font size="23.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="26.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../img_2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label layoutX="80.0" layoutY="14.0" text="Pomodoro">
+         <font>
+            <Font name="Inter Bold" size="24.0" />
+         </font>
+      </Label>
+      <ProgressBar fx:id="progressBar" layoutX="113.0" layoutY="253.0" prefHeight="133.0" prefWidth="134.0" progress="0.52" rotate="-90.0" style="-fx-accent: #404252;" />
+      <Button layoutX="88.0" layoutY="435.0" mnemonicParsing="false" onAction="#startButton" prefHeight="41.0" prefWidth="62.0" style="-fx-background-radius: 20; -fx-background-color: #89CFF0;" text="Start" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button layoutX="149.0" layoutY="476.0" mnemonicParsing="false" onAction="#resetButton" prefHeight="41.0" prefWidth="62.0" style="-fx-background-radius: 20; -fx-background-color: #89CFF0;" text="Reset" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button layoutX="211.0" layoutY="435.0" mnemonicParsing="false" onAction="#PauseButton" prefHeight="41.0" prefWidth="62.0" style="-fx-background-radius: 20; -fx-background-color: #89CFF0;" text="Pause" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <ImageView blendMode="ADD" fitHeight="134.0" fitWidth="133.0" layoutX="114.0" layoutY="253.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../blurscene.gif" />
+         </image>
+      </ImageView>
+      <Label fx:id="progrresslabel" alignment="CENTER" layoutX="136.0" layoutY="302.0" prefHeight="35.0" prefWidth="89.0">
+         <font>
+            <Font name="Inter Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="14.0" layoutY="253.0" mnemonicParsing="false" onAction="#min5" prefHeight="41.0" prefWidth="62.0" style="-fx-background-radius: 20; -fx-background-color: #89CFF0;" text="5 Min" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="284.0" layoutY="253.0" mnemonicParsing="false" onAction="#min25" prefHeight="41.0" prefWidth="62.0" style="-fx-background-radius: 20; -fx-background-color: #89CFF0;" text="25 Min" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button layoutX="150.0" layoutY="172.0" mnemonicParsing="false" onAction="#min10" prefHeight="41.0" prefWidth="62.0" style="-fx-background-radius: 20; -fx-background-color: #89CFF0;" text="10 Min" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <GridPane alignment="CENTER" layoutY="582.0" prefHeight="58.0" prefWidth="360.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints />
+         </rowConstraints>
+         <children>
+            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#homebutton" prefHeight="50.0" prefWidth="90.0" style="-fx-background-color: null;">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../icon/homeicon.png" />
+                     </image>
+                     <effect>
+                        <Bloom threshold="0.6" />
+                     </effect>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#people" prefHeight="50.0" prefWidth="90.0" style="-fx-background-color: null;" GridPane.columnIndex="1">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../icon/diversity_3_FILL0_wght400_GRAD0_opsz24.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#chatbutton" prefHeight="50.0" prefWidth="90.0" style="-fx-background-color: null;" GridPane.columnIndex="2">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../icon/chat_bubble_FILL0_wght400_GRAD0_opsz24.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#menu" prefHeight="50.0" prefWidth="90.0" style="-fx-background-color: null;" GridPane.columnIndex="3">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../icon/menu_FILL0_wght400_GRAD0_opsz24.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="20.0" right="20.0" />
+         </padding>
+      </GridPane>
+   </children>
+</AnchorPane>

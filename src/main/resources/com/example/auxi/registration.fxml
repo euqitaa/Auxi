@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.GaussianBlur?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="360.0" style="-fx-background-color: #f3f4f8;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.auxi.controller.registrationController">
+   <children>
+      <AnchorPane layoutX="-10.0" layoutY="-10.0">
+         <children>
+            <ImageView fitHeight="640.0" fitWidth="360.0" layoutX="10.0" layoutY="10.0" nodeOrientation="INHERIT" opacity="0.28" pickOnBounds="true">
+               <image>
+                  <Image url="@../../../blurscene.gif" />
+               </image>
+               <effect>
+                  <GaussianBlur />
+               </effect>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Label layoutX="40.0" layoutY="115.0" prefHeight="65.0" prefWidth="280.0" text="Auxilium">
+         <font>
+            <Font size="44.0" />
+         </font>
+         <effect>
+            <Glow level="0.45">
+               <input>
+                  <Blend>
+                     <topInput>
+                        <Glow />
+                     </topInput>
+                  </Blend>
+               </input>
+            </Glow>
+         </effect>
+      </Label>
+      <Label layoutX="40.0" layoutY="100.0" prefHeight="35.0" prefWidth="280.0" text="Welcome to">
+         <font>
+            <Font name="Inter Regular" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="emailtextField" layoutX="40.0" layoutY="192.0" prefHeight="40.0" prefWidth="280.0" promptText="Enter username" style="-fx-border-color: #101223;">
+         <effect>
+            <Glow />
+         </effect>
+      </TextField>
+      <TextField fx:id="passwordtextField" accessibleRole="PASSWORD_FIELD" layoutX="41.0" layoutY="262.0" prefHeight="40.0" prefWidth="280.0" promptText="Enter Password" style="-fx-border-color: #101223;">
+         <effect>
+            <Glow />
+         </effect>
+      </TextField>
+      <Button layoutX="42.0" layoutY="452.0" mnemonicParsing="false" onAction="#registration" prefHeight="40.0" prefWidth="280.0" style="-fx-background-color: #101223;" text="Register" textFill="#d2d4da">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="registrationLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="42.0" layoutY="513.0" prefHeight="40.0" prefWidth="280.0" />
+      <Button alignment="CENTER" graphicTextGap="0.0" layoutX="92.0" layoutY="553.0" mnemonicParsing="false" onAction="#loginswitch" prefHeight="40.0" prefWidth="177.0" style="-fx-background-color: null;" text="Already a user?login" textFill="#6f64ff" underline="true" />
+      <Button layoutX="40.0" layoutY="369.0" mnemonicParsing="false" onAction="#chooseImage" text="Choose" />
+      <ImageView fx:id="imageview" fitHeight="109.0" fitWidth="170.0" layoutX="152.0" layoutY="329.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="360.0" scaleShape="false" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.auxi.controller.eisenController">
+   <children>
+      <GridPane alignment="CENTER" layoutY="587.0" prefHeight="60.0" prefWidth="360.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints />
+         </rowConstraints>
+         <children>
+            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#homebutton" prefHeight="50.0" prefWidth="90.0" style="-fx-background-color: null;">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../icon/homeicon.png" />
+                     </image>
+                     <effect>
+                        <Bloom threshold="0.6" />
+                     </effect>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#people" prefHeight="50.0" prefWidth="90.0" style="-fx-background-color: null;" GridPane.columnIndex="1">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../icon/diversity_3_FILL0_wght400_GRAD0_opsz24.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#chatbutton" prefHeight="50.0" prefWidth="90.0" style="-fx-background-color: null;" GridPane.columnIndex="2">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../icon/chat_bubble_FILL0_wght400_GRAD0_opsz24.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#menu" prefHeight="50.0" prefWidth="90.0" style="-fx-background-color: null;" GridPane.columnIndex="3">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../icon/menu_FILL0_wght400_GRAD0_opsz24.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="20.0" right="20.0" />
+         </padding>
+      </GridPane>
+      <Label layoutX="82.0" layoutY="24.0" text="Eisenhower Matrix">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="14.0" layoutY="17.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="48.0" minWidth="48.0" mnemonicParsing="false" onAction="#backbutton" prefHeight="48.0" prefWidth="48.0" style="-fx-background-color: white;">
+         <font>
+            <Font size="23.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="26.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../img_2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <GridPane alignment="CENTER" layoutX="-1.0" layoutY="80.0" prefHeight="485.0" prefWidth="360.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <padding>
+            <Insets left="10.0" right="10.0" />
+         </padding>
+         <children>
+            <ScrollPane prefHeight="200.0" prefWidth="200.0">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="243.0" prefWidth="170.0">
+                     <children>
+                        <ListView fx:id="urg_imp" layoutY="18.0" prefHeight="224.0" prefWidth="170.0" />
+                     </children></AnchorPane>
+              </content>
+            </ScrollPane>
+            <ScrollPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="241.0" prefWidth="170.0">
+                     <children>
+                        <ListView fx:id="nurg_imp" layoutY="18.0" prefHeight="213.0" prefWidth="170.0" />
+                     </children></AnchorPane>
+               </content>
+            </ScrollPane>
+            <ScrollPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="241.0" prefWidth="170.0">
+                     <children>
+                        <ListView fx:id="urg_unimp" layoutY="21.0" prefHeight="218.0" prefWidth="170.0" />
+                     </children></AnchorPane>
+               </content>
+            </ScrollPane>
+            <ScrollPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="241.0" prefWidth="170.0">
+                     <children>
+                        <ListView fx:id="nurg_unimp" layoutY="17.0" prefHeight="222.0" prefWidth="170.0" />
+                     </children></AnchorPane>
+               </content>
+            </ScrollPane>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="18.0" prefWidth="182.0" text="Not Urgent and Important" GridPane.columnIndex="1" GridPane.valignment="TOP" />
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="18.0" prefWidth="175.0" text="Urgent and unimportant" GridPane.rowIndex="1" GridPane.valignment="TOP" />
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="18.0" prefWidth="178.0" text="Not urgent and unimportant" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.valignment="TOP" />
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="18.0" prefWidth="175.0" text="Urgent and Important" GridPane.valignment="TOP" />
+         </children>
+      </GridPane>
+      <Button fx:id="TaskAddButton" layoutX="286.0" layoutY="17.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="32.0" mnemonicParsing="false" onAction="#addTask" prefHeight="48.0" prefWidth="60.0" text="Add" />
+   </children>
+</AnchorPane>

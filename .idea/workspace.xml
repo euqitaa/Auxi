@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="15363cd3-625d-4cd9-8b16-d3cf3f25f920" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2eXsab7c1FP2OGJuTabMSNeXZ7h" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Server.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Unnamed (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/emad/IdeaProjects/Auxi/src/main/resources/icon&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2816092&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\emad\IdeaProjects\Auxi\src\main\resources\icon" />
+      <recent name="C:\Users\emad\IdeaProjects\Auxi\src\main\resources\com\example\auxi" />
+      <recent name="C:\Users\emad\IdeaProjects\Auxi\src\main\java\com\example\auxi\controller\serverandchat" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\emad\IdeaProjects\Auxi\src\main\resources" />
+      <recent name="C:\Users\emad\IdeaProjects\Auxi\src\main\resources\icon" />
+      <recent name="C:\Users\emad\IdeaProjects\Auxi\src\main\resources\com\example\auxi" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.auxi.controller.serverandchat" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Unnamed (1)">
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.auxi.controller.serverandchat.Server" />
+      <module name="Auxi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.auxi.controller.serverandchat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed (1)" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.auxi.HelloApplication" />
+      <module name="Auxi" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.auxi.HelloApplication" />
+      <module name="Auxi" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Unnamed (1)" />
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.Server" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Server" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="15363cd3-625d-4cd9-8b16-d3cf3f25f920" name="Changes" comment="" />
+      <created>1712062321801</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712062321801</updated>
+      <workItem from="1712062322850" duration="633000" />
+      <workItem from="1712067302091" duration="69000" />
+      <workItem from="1712067379738" duration="95000" />
+      <workItem from="1712067484763" duration="54000" />
+      <workItem from="1712210408009" duration="26000" />
+      <workItem from="1712260499189" duration="1019000" />
+      <workItem from="1712261547975" duration="714000" />
+      <workItem from="1712262318690" duration="4284000" />
+      <workItem from="1712295275315" duration="2459000" />
+      <workItem from="1712381894734" duration="19000" />
+      <workItem from="1712409148754" duration="179000" />
+      <workItem from="1712409345652" duration="6000" />
+      <workItem from="1712409396811" duration="2654000" />
+      <workItem from="1712412082294" duration="1942000" />
+      <workItem from="1712418878318" duration="788000" />
+      <workItem from="1712425910608" duration="137000" />
+      <workItem from="1712467460249" duration="6462000" />
+      <workItem from="1712507914634" duration="533000" />
+      <workItem from="1713254700927" duration="672000" />
+      <workItem from="1713365889670" duration="186000" />
+      <workItem from="1713621902302" duration="603000" />
+      <workItem from="1713708600559" duration="26000" />
+      <workItem from="1713709847155" duration="853000" />
+      <workItem from="1714128671489" duration="1032000" />
+      <workItem from="1714133662466" duration="1091000" />
+      <workItem from="1714154744907" duration="267000" />
+      <workItem from="1714158214187" duration="7554000" />
+      <workItem from="1714166590891" duration="2349000" />
+      <workItem from="1714314554967" duration="3613000" />
+      <workItem from="1714398185628" duration="3389000" />
+      <workItem from="1714409850832" duration="2308000" />
+      <workItem from="1714416489474" duration="5490000" />
+      <workItem from="1714493393646" duration="601000" />
+      <workItem from="1714505282621" duration="7000" />
+      <workItem from="1714505912861" duration="50000" />
+      <workItem from="1714506251621" duration="21000" />
+      <workItem from="1714545643016" duration="12392000" />
+      <workItem from="1714584924322" duration="6000" />
+      <workItem from="1714638344396" duration="729000" />
+      <workItem from="1714643556542" duration="1292000" />
+      <workItem from="1714667442496" duration="11975000" />
+      <workItem from="1714715746043" duration="3689000" />
+      <workItem from="1714719742887" duration="227000" />
+      <workItem from="1714732831735" duration="4126000" />
+      <workItem from="1714738036483" duration="626000" />
+      <workItem from="1714753083664" duration="18974000" />
+      <workItem from="1714790479087" duration="3675000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.RuntimeException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="com.mysql.cj.jdbc.exceptions.PacketTooBigException" package="com.mysql.cj.jdbc.exceptions" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

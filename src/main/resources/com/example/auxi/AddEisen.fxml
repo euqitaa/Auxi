@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="360.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.auxi.controller.AddEisenController">
+   <children>
+      <Button layoutX="24.0" layoutY="27.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="48.0" minWidth="48.0" mnemonicParsing="false" onAction="#backbutton" prefHeight="48.0" prefWidth="48.0" style="-fx-background-color: white;">
+         <font>
+            <Font size="23.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="26.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../img_2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label layoutX="78.0" layoutY="34.0" text="Add Task">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="taskname" layoutX="16.0" layoutY="154.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="320.0" promptText="Task Name">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets></TextField>
+      <DatePicker fx:id="date" layoutX="16.0" layoutY="204.0" prefHeight="40.0" prefWidth="320.0" promptText="Select Date" />
+      <MenuButton fx:id="prioritymenu" layoutX="16.0" layoutY="254.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="320.0" text="Select Priority">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Urgent and Important" onAction="#handlePrioritySelection" userData="1"/>
+          <MenuItem mnemonicParsing="false" text="Not urgent and important" onAction="#handlePrioritySelection" userData="2"/>
+            <MenuItem mnemonicParsing="false" text="Urgent and Unimportant" onAction="#handlePrioritySelection" userData="3"/>
+            <MenuItem mnemonicParsing="false" text="Not Urget and Unimportant" onAction="#handlePrioritySelection" userData="4"/>
+        </items>
+      </MenuButton>
+      <Button fx:id="saveTaskButton" layoutX="130.0" layoutY="314.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#saveTask" prefHeight="40.0" prefWidth="100.0" text="Save Task" />
+   </children>
+</AnchorPane>
